@@ -15,7 +15,7 @@
         "KEY_SPACE": false
     },
     "defaultMouseAngle": 0,
-    "defaultMouseClicked":false,
+    "defaultMouseClicked": false,
     "wall": {
         "width": 25,
         "height": 25,
@@ -29,8 +29,8 @@
         "maxSpatialHashSize": 500
     },
     "bullet": {
-        "width": 1,
-        "height": 1,
+        "width": 8,
+        "height": 8,
         "velocity": 9,
         "timeToLive": 2500
     },
@@ -45,10 +45,8 @@
         "fireTimeWait": 250,
         "timeToGainAmmo": 1000
     },
-    "screenName":{
+    "screenName": {
         "maxLength": 12,
-        "blacklist": [
-            "someBadWord",
-        ]
+        "blacklist": ["someBadWord"]
     }
 }
